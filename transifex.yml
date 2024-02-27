@@ -1,7 +1,7 @@
 git:
   filters:
   - filter_type: file
-    source_file: enGB.json
+    source_file: PK.txt
     file_format: TXT
     source_language: en
     translation_files_expression: 'Translations/<lang>/'
