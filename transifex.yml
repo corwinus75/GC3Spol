@@ -1,8 +1,6 @@
-git:
-  filters:
-  - filter_type: dir
-    file_format: TXT 
-    source_file_extension: txt
-    source_language: en_GB
-    source_file_dir: localization
-    translation_files_expression: 'localization/localization_<lang>'
+filters:
+  - filter_type: file
+    file_format: YAML_GENERIC
+    source_language: en
+    source_file: lib/translation_maps/norm_has_type_to_en.yaml
+    translation_files_expression: lib/translation_maps/norm_has_type_to_<lang>.yaml
