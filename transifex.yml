@@ -1,6 +1,6 @@
 filters:
   - filter_type: file
-    file_format: YAML_GENERIC
+    file_format: TXT_PLAIN
     source_language: en
     source_file: lib/translation_maps/norm_has_type_to_en.yaml
     translation_files_expression: lib/translation_maps/norm_has_type_to_<lang>.yaml
