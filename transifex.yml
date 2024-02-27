@@ -1,6 +1,7 @@
-filters:
+git:
+  filters:
   - filter_type: file
+    source_file: enGB.json
     file_format: TXT
     source_language: en
-    source_file: localization/PK.txt
-    translation_files_expression: localization/PK_<lang>.yaml
+    translation_files_expression: 'Translations/<lang>/'
