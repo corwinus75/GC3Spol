@@ -1,0 +1,4 @@
+filters:
+  - filter_type: file
+    file_format: PLAIN_TXT
+    source_language: en
